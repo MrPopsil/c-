@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	cout << "[+] Месяца года\n\n";
+	cout << "[1] Январь\n";
+	cout << "[2] Февраль\n";
+	cout << "[3] Март\n";
+	cout << "[4] Апрель\n";
+	cout << "[5] Май\n";
+	cout << "[6] Июнь\n";
+	cout << "[7] Июль\n";
+	cout << "[8] Август\n";
+	cout << "[9] Сентябрь\n";
+	cout << "[10] Октябрь\n";
+	cout << "[11] Ноябрь\n";
+	cout << "[12] Декабрь\n\n";
+	cout << "[+] Выберите месяц: ";
+	int month;
+	cin >> month;
+	switch (month) {
+	case 1:
+		system("cls");
+		cout << "[+] Выбран месяц \"Январь\"";
+		break;
+	case 2:
+		system("cls");
+		cout << "[+] Выбран месяц \"Февраль\"";
+		break;
+	case 3:
+		system("cls");
+		cout << "[+] Выбран месяц\"Март\"";
+		break;
+	case 4:
+		system("cls");
+		cout << "[+] Выбран месяц\"Апрель\"";
+		break;
+	case 5:
+		system("cls");
+		cout << "[+] Выбран месяц\"Май\"";
+		break;
+	case 6:
+		system("cls");
+		cout << "[+] Выбран месяц\"Июнь\"";
+		break;
+	case 7:
+		system("cls");
+		cout << "[+] Выбран месяц\"Июль\"";
+		break;
+	case 8:
+		system("cls");
+		cout << "[+] Выбран месяц\"Август\"";
+		break;
+	case 9:
+		system("cls");
+		cout << "[+] Выбран месяц\"Сентябрь\"";
+		break;
+	case 10:
+		system("cls");
+		cout << "[+] Выбран месяц\"Октябрь\"";
+		break;
+	case 11:
+		system("cls");
+		cout << "[+] Выбран месяц\"Ноябрь\"";
+		break;
+	case 12:
+		system("cls");
+		cout << "[+] Выбран месяц\"Декабрь\"";
+		break;
+	default:
+		system("cls");
+		cout << "[-] Неправильно введён номер месяца!";
+	}
+	int _;
+	cin >> _;
+}
